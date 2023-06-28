@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header> </header>
+    <section>
+      <h1>Welcome to the JavaScript Quiz</h1>
+      <h3>Instructions</h3>
+      <p>This is a quiz to test your knowledge of JavaScript.</p>
+      <p>Once you click "Go," the first question will appear.</p>
+      <p>There is a timer at the top right, and every time you answer wrong, 25 seconds are deducted from your time.</p>
+      <p>When the timer hits 0 or you answer all the questions, the quiz ends.</p>
+      <p>You will receive a score at the end of the game based on your accuracy.</p>
+      <h3>Good luck!!!!</h3>
+    </section>
+
+    <button class="my-button" onclick="loadQuestionPage()">Go!</button>
+    <script>
+      gameStart = false;
+        function loadQuestionPage() {
+          window.location.href = 'question1.html';
+          gameStart = true;
+        }
+      </script>
+  </body>
+</html>
+

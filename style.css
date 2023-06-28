@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 400px;
+    border-bottom: 1px solid black;
+    background-color: rgb(243, 243, 243);
+    height: 90px;
+    font-size: 170%;
+    color: rgb(28, 28, 28);
+  }
+  
+  .left-element {
+    margin-right: auto;
+    
+  }
+  
+  .right-element {
+    margin-left: auto;
+  }
+
+section {
+  text-align: center;
+  margin-top: 110px;
+  font-size: 175%;
+  border-bottom: 1px solid black;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+}
+
+.my-button {
+    
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+  
+  .answer-list {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .answer-list li {
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"]:hover {
+    cursor: pointer;
+  }
+
+  #message {
+    font-size: 200%;
+  }
+  
+ 
+  
+  
+  
+  
+  

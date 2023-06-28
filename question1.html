@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Script.js"></script>
+  </head>
+  <body>
+    <header>
+      <p>View high Scores</p>
+      <p id="time">Time = <span id="timeValue"></span></p>
+    </header>
+    <section>
+      <h3 id="question-label"></h3>
+      <p id="question-text"></p>
+      <ul class="answer-list">
+        <li>
+          <input type="radio" id="answer1" name="answer" value="1">
+          <label for="answer1"></label>
+        </li>
+        <li>
+          <input type="radio" id="answer2" name="answer" value="2">
+          <label for="answer2"></label>
+        </li>
+        <li>
+          <input type="radio" id="answer3" name="answer" value="3">
+          <label for="answer3"></label>
+        </li>
+        <li>
+          <input type="radio" id="answer4" name="answer" value="4">
+          <label for="answer4"></label>
+        </li>
+      </ul>
+    </section>
+
+    <button class="my-button" id="confirmButton">Confirm</button>
+    <button class="my-button" id="nextButton">Next!</button>
+    <p id="message"></p>
+  </body>
+</html>
+
+
