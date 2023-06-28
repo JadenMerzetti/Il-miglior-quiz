@@ -10,8 +10,12 @@
     <section>
       <h1>The Quiz has Ended</h1>
       <h3>Thank You for Playing</h3>
-      <p id="scoreText">Your score: <span id="timeValue"></span></p>
-      <button  class="my-button" onclick="playAgain()">Play Again</button>
+      <p id="scoreText">Your score: <span id="scoreValue"></span></p>
+      <form>
+        <label for="initials">Enter your initials:</label>
+        <input type="text" id="initials" name="initials" maxlength="3" placeholder="ABC" required>
+      </form>
+      <button class="my-button" onclick="playAgain()">Play Again</button>
     </section>
   </body>
 </html>
