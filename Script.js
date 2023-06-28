@@ -86,8 +86,11 @@ document.addEventListener('DOMContentLoaded', function() {
     var questionTextElement = document.getElementById('question-text');
     var answerElements = document.querySelectorAll('.answer-list li');
 
+    if (questionLabelElement && questionTextElement && answerElements) {
     questionLabelElement.textContent = currentQuestion.Label;
     questionTextElement.textContent = currentQuestion.question;
+
+    }
 
     currentQuestion.answers.forEach(function(answer, index) {
       var answerInputElement = answerElements[index].querySelector('input');
@@ -126,10 +129,14 @@ document.addEventListener('DOMContentLoaded', function() {
       } 
     }
   }
-    
+  var confirmButton = document.getElementById('confirmButton');
+  var nextButton = document.getElementById('nextButton');
+
+  if (confirmButton && nextButton) {
   document.getElementById('confirmButton').addEventListener('click', function() {
     handleButtonClick();
   });
+
     
   document.getElementById('nextButton').addEventListener('click', function() {
     currentQuestionIndex++;
@@ -148,15 +155,17 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
       endGame();
     }
+    
   });
-  
+
   updateQuestion();
   startTimer();
+  }
 });
 
 function playAgain() {
-  window.location.href = 'WelcomePage.html';
-};
+  window.location.href = 'index.html';
+}
 
 
 
