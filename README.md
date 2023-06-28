@@ -1,4 +1,4 @@
-#**https://jadenmerzetti.github.io/il-miglior-quiz/**
+https://jadenmerzetti.github.io/il-miglior-quiz/
 # 03 JavaScript: Quiz
 
 ## Your Task
